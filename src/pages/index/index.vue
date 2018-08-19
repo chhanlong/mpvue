@@ -21,9 +21,8 @@
     },
     methods:{
       async load(){
-        console.log(this.test)
-        let list = await this.$http.flyGetToken();
-        console.log(list)
+        let list = await this.$http.home.flyHomeTpl();
+        //console.log(list);
       }
     }
   }

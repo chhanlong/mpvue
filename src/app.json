@@ -1,13 +1,13 @@
 {
   "pages": [
-    "pages/index/main",
-    "pages/logs/main",
-    "pages/counter/main"
+    "pages/message/main",
+    "pages/order/main",
+    "pages/index/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "奢品回收",
     "navigationBarTextStyle": "black"
   }
 }

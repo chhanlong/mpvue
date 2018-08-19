@@ -2,10 +2,10 @@ export const createAjaxAction = (api, startAction, endAction) => async (data, cb
 	let resp = await api(data);
 	let code = resp.status;
 	if(code != 200){
-		let msg = await resp.json().msg;
+		let msg = await resp.msg;
 		alert(msg);
 	}else{
-		let data = await resp.json()
+		let data = await resp
 		return data;
 	}
 }

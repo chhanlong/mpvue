@@ -2,10 +2,10 @@
   <div class="W_footer">
     <div class="bottom cl">
       <div class="but" id="statistic-evaluation">
-        <a href="/recovery/message/" id="message">申请估价</a>
+        <a href="/pages/message/main" id="message">申请估价</a>
       </div>
       <div class="but">
-        <a href="/recovery/order/list" id="order">回收订单</a>
+        <a href="/pages/order/main" id="order">回收订单</a>
       </div>
     </div>
   </div>
@@ -19,7 +19,9 @@
     props: {
       "DomainUrl":DomainUrl
     },
-    created () {},
+    created () {
+      //console.log(DomainUrl);
+    },
     methods:{}
   }
 </script>
