@@ -1,0 +1,210 @@
+.message .prompt {
+  background: #ccb8a3;
+  line-height: 32px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+/*分隔*/
+.message>.img{
+  padding: 20px 0;
+  border-bottom: 12px solid #f1f1f1;
+}
+.message>.img .text{
+  font-size: 12px;
+  color: #666666;
+  line-height: 12px;
+  text-align: center;
+  margin-top: 3px;
+}
+.message>.img .ico{
+  margin: 0 auto;
+}
+.message>.img .photo{
+  display: block;
+  background-image: url('//static.wbiao.co/p/share/mp/images/photo.png');
+  background-size: 100%;
+  width: 36px;
+  height: 36px;
+}
+.message>.imgPick{
+  padding: 20px 16px;
+  border-bottom: 12px solid #f1f1f1
+}
+.message>.imgPick .left{
+  height: 48px;
+  width: 224px;
+  overflow: hidden;
+}
+.message>.imgPick .left img{
+  height: 48px;
+  width: 48px;
+  margin-right: 8px;
+  float: left;
+}
+.message>.imgPick .right{
+  margin-top: 13px;
+}
+.message>.imgPick .right .text{
+  font-size: 14px;
+  color: #333333;
+  text-align: right;
+  line-height: 14px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.message>.imgPick .right .ico{
+  display: inline-block;
+  vertical-align: middle;
+}
+.message>.imgPick .right .go2{
+  display: block;
+  background-image: url('//static.wbiao.co/p/share/mp/images/go2.png');
+  background-size: 100%;
+  width: 14px;
+  height: 14px;
+}
+
+/*分隔*/
+.message>.input li{
+  padding: 16px 0 16px 12px;
+  border-bottom: .5px solid #DDDDDD;
+}
+.message>.input li:nth-child(4){
+  border-bottom: 0;
+}
+.message>.input li:nth-child(5){
+  border-top: 12px solid #f2f2f2;
+}
+.message>.input li:last-child{
+  border-bottom: 12px solid #f2f2f2;
+}
+.message>.input .border{
+  border-bottom: 0;
+}
+.message>.input li .text{
+  font-size: 14px;
+  color: #666666;
+  line-height: 21px;
+}
+.message>.input li .text2{
+  font-size: 14px;
+  color: #CCCCCC;
+  text-align: right;
+  line-height: 21px;
+  margin-right: 5px;
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.message>.input li .text3{
+  width: 70%;
+  margin-right: 12px;
+}
+.message>.input li .text3 input{
+  border: 0;
+  width: 100%;
+  text-align: right;
+  font-size: 14px;
+  color: #333;
+}
+.message>.input li .on{
+  color: #333333;
+}
+.message>.input li .ico{
+  margin-right: 12px;
+}
+.message>.input li .icon-d-recovery-choice{
+  display: block;
+  background-image: url('//static.wbiao.co/p/share/mp/images/choice.png');
+  background-size: 100%;
+  width: 22px;
+  height: 22px;
+}
+
+.message>.content .spacingText{
+  font-size: 10px;
+  color: #BBBBBB;
+  line-height: 18px;
+  padding: 0 12px;
+  margin-bottom: 21px;
+}
+/*协议*/
+.message>.agreement{
+  font-size: 12px;
+  color: #666666;
+  text-align: center;
+  line-height: 14px;
+  margin: 45px 0 85px 0;
+}
+.message>.agreement span{
+  color: #D6BA81;
+}
+.message>.button{
+  width: 96%;
+  height: 44px;
+  background: #D6BA81;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 44px;
+  text-align: center;
+  position: fixed;
+  left: 2%;
+  bottom: 12px;
+  z-index: 99;
+}
+/*输入框*/
+.message>.inputText{
+  margin-left: 12px;
+  position: relative;
+  border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+}
+.message>.inputText .describe{
+  font-size: 14px;
+  color: #666666;
+  line-height: 14px;
+  margin: 21px 0 12px 0;
+}
+.message>.inputText .js_area{
+  width: 98%;
+  height: 70px;
+  font-size: 12px;
+  color: #333;
+  line-height: 24px;
+  border: 0;
+  padding-bottom: 20px;
+}
+.message>.inputText textarea{
+  outline: 0;
+}
+.message>.inputText .text{
+  position: absolute;
+  right: 12px;
+  bottom: 10px;
+  text-align: right;
+  font-size: 10px;
+  color: #ccc;
+}
+.placeholder{
+  font-size: 12px;
+  color: #ccc;
+}
+/*估价说明*/
+.message>.explain{
+  padding: 0 12px;
+}
+.message>.explain .p1{
+  font-size: 14px;
+  color: #666666;
+  line-height: 14px;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+.message>.explain .p2{
+  font-size: 12px;
+  color: #BBBBBB;;
+  line-height: 24px;
+}

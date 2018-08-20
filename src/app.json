@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/index/main",
     "pages/message/main",
-    "pages/order/main",
-    "pages/index/main"
+    "pages/messageSubmit/main",
+    "pages/order/main"
   ],
   "window": {
     "backgroundTextStyle": "light",

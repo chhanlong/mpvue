@@ -5,7 +5,7 @@ export const createAjaxAction = (api, startAction, endAction) => async (data, cb
 		let msg = await resp.msg;
 		alert(msg);
 	}else{
-		let data = await resp
+		let data = await resp;
 		return data;
 	}
 }

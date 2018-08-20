@@ -20,3 +20,6 @@ page {
   display: block;
   clear: both;
 }
+.h{
+  display: none !important;
+}
