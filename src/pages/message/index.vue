@@ -45,7 +45,6 @@
 </template>
 
 <script>
-
   export default {
     data () {
       return { }
@@ -113,7 +112,6 @@
     font-size: 14px;
     color: #333;
   }
-
   .message>.input li .on{
     color: #333333;
   }
@@ -122,7 +120,7 @@
   }
   .message>.input li .icon-d-recovery-choice{
     display: block;
-    background-image: url('/static/images/choice.png?1');
+    background-image: url('//static.wbiao.co/p/share/mp/images/choice.png');
     background-size: 100%;
     width: 22px;
     height: 22px;

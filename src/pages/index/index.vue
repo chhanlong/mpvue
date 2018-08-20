@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="button">
-      <img src="/static/images/home.jpg" alt="">
+      <img src="//static.wbiao.co/p/share/mp/images/home.jpg" alt="">
     </div>
     <indexButton></indexButton>
   </div>
