@@ -14,6 +14,6 @@ npm install
 
 npm run dev
 
-https://github.com/jrainlau/taxi-together-client/tree/master/src
+http://kuangpf.com/mpvue-weui 具体U 具体UI可以参考这个
 
 http://mpvue.com/build/postcss-mpvue-wxss/
