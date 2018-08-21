@@ -5,16 +5,16 @@ const isProduction = process.env.ENV === 'prod';
 fly.config.baseURL = isProduction ? API.production : API.test;
 
 let getparam = params => {
-	let buffer = [];
+  let buffer = [];
 	let count = 0;
   	for(let name in params){
   		count++
 	  	if ( ! params.hasOwnProperty( name ) ) {
-	        continue;
+	      continue;
 	    }
 	  	let value = params[name];
 	  	buffer.push(
-	        encodeURIComponent( name ) + "=" + encodeURIComponent( ( value == null ) ? "" : value )
+	      encodeURIComponent( name ) + "=" + encodeURIComponent( ( value == null ) ? "" : value )
 	    );
 	    let source = buffer.join( "&" ).replace( /%20/g, "+" );
 	    if(count === Object.keys(params).length){
